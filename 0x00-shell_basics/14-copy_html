@@ -1,2 +1,2 @@
 #!/bin/bash
-ls myDir/*.html | xargs -I {} cp {} ~/otherDir
+cp -R /$(pwd)/*.html/../
